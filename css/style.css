@@ -1,0 +1,128 @@
+.active{
+	color:#21564b;
+}
+header ul{
+	float:right;
+	list-style-type: none;
+	margin: 0;
+	line-height:18px;
+	padding: 10px 0px 0px 0px;
+	overflow: hidden;
+	width:100%;
+	position:fixed;
+	background:#e9f7f2ed;
+}
+header li{
+	float:right;
+	font-size:18px;
+	margin:20px;
+	padding:2px;
+}
+header li:last-child{
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+header a{
+	font-family:Arial;
+	font-weight:bold;
+	color:#45b29a;
+	display:block;
+	text-decoration:none;
+	transition: color 0.5s,linear ease-in 1s;
+}
+header a:hover{
+	color:#21564b;
+}
+body{
+	margin:0px;
+	background:#ffffff;
+}
+#front{
+	color:#45b29a;
+	font-weight:400;
+	display:inline-block;
+	text-align:center;
+	width:100%;
+	font-family:brandon-grotesque;
+	font-size:20px;
+}
+main{
+	text-align:center;
+	width:100%;
+}
+footer li{
+	width:100%;
+	margin:20px;
+	color:#87ebd4c7;
+	font-family:brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	display:inline;
+}
+footer ul{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	list-style-type: none;
+}
+footer{
+	background:#79baab;
+	padding:35px 0px;
+	text-align:center;
+}
+#frontimg{
+	display:inline-block;
+	width:30%;
+	margin: 200px 0px 0px 0px;
+	clear:both;
+}
+#mainimg{
+	width:100%;
+	clear:both;
+}
+#mid{
+	width:100%;
+	display:inline-block;
+	text-align:center;
+}
+#blue{
+	background:#d8f1e991;
+}
+h1{
+	float:left;
+	font-size:18px;
+	display:inline;
+	width:25%;
+	margin:0px;
+	padding:0px;
+}
+footer a{
+	font-family: brandon-grotesque;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #0f3c25;
+    display: inline;
+    text-decoration: none;
+    transition: color 0.5s,linear ease-in 1s;
+    padding: 10px;
+}
+footer a:hover{
+	color:#ffffff;
+}
+h3{
+	font-size:30px;
+	font-weight:lighter;
+	color:#45b29a;
+	font-family:Calibri;
+}
+main p{
+	width: 50%;
+	font-family:adobe-garamond-pro;
+	font-size:20px;
+	font-weight:lighter;
+	display:inline-block;
+}
+#hide{
+	visibility:hidden;
+}
+	
